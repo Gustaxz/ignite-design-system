@@ -2,7 +2,8 @@ name: Deploy docs
 
 on:
   push:
-    branches: -last_branch
+    branches:
+      - last_branch
 
 jobs:
   build-and-deploy:
